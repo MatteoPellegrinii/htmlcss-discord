@@ -65,3 +65,22 @@ li{
 .jumbotron p{
     color: white;
 }
+.container > div{
+    margin-top: 30px;
+}
+.jumbotron a{
+    /* background-color: white; */
+    margin-right: 20px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+.whitebutton{
+    background-color: white;  
+}
+.blackbutton{
+    background-color: black;
+    color: white;
+}
+
