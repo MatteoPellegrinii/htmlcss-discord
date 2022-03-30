@@ -6,6 +6,8 @@
 body{
     font-family: Helvetica, sans-serif
 }
+
+/*  MENU INIZIALE */
 .firstpart{
     background-color: #255ee9;
     width: 100%;
@@ -41,6 +43,9 @@ li{
     cursor: pointer;
     border: solid 1px black;
 }
+    
+
+/*  JUMBOTRON */
 .jumbotron{
     background-image:url(../img/jumbo.png);
     background-size: cover;
@@ -65,7 +70,7 @@ li{
 .jumbotron p{
     color: white;
 }
-.container > div{
+.pulsantijumbo{
     margin-top: 30px;
 }
 .jumbotron a{
@@ -82,5 +87,33 @@ li{
 .blackbutton{
     background-color: black;
     color: white;
+}
+
+/* MAIN */
+
+.main{
+    display: inline-block;
+} */
+.immagine{
+    float: left;
+    width: 50%;
+    /* background-color: red; */
+}
+.immagine > img{
+    width: 100%;
+}
+.text{
+    float: left;
+    width: 50%;
+    /* background-color: blue; */
+    margin-top: 50px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .text h2{
+    font-size: 40px;
 }
 
