@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Helvetica, sans-serif
+}
+.firstpart{
+    background-color: #255ee9;
+    width: 100%;
+}
+.menu{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    width: 33%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    vertical-align: middle;
+}
+li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.pulsanti a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.pulsanti a:hover{
+    text-decoration: underline;
+}
+.accedi a{
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    border: solid 1px black;
+}
+.jumbotron{
+    background-image:url(../img/jumbo.png);
+    background-size: contain;
+    width: 100%;
+}
+.container{
+    margin: ;
+}
