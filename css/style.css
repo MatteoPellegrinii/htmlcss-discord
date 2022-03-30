@@ -51,13 +51,12 @@ li{
     background-size: cover;
     width: 100%;
     height: 60vh;
-    
 }
 .container{
     margin: 0 10%;
     width: auto;
     text-align: center;
-    height: 100vh;
+    /* height: 100%; */
 }
 .jumbotron > .container{
     margin: 0 30%;
@@ -94,8 +93,8 @@ li{
 .text{
     float: left;
     width: 50%;
-    background-color: blue;
-    margin-top: 100px;
+    /* background-color: blue; */
+    margin-top: 200px;
 }
 .clearfix::after {
     content: "";
@@ -105,10 +104,20 @@ li{
 .decorazione{
     width: 50%;
     float: left;
-    background-color: red;
+    margin-top: 100px;
+    /* background-color: red; */
 }
 .decorazione > img{
     width: 100%;
+}
+main > section{
+    height: 100vh;
+}
+.containergrey{
+    background-color: #ccc;
+    padding: 0 10%;
+    width: auto;
+    text-align: center;
 }
 
 
